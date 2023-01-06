@@ -108,5 +108,7 @@ func newApp(ctx context.Context, port, projectID string) (*App, error) {
 		Methods("GET")
 	app.Server.Handler = r
 
+	fmt.Print("A new world")
+
 	return app, nil
 }
