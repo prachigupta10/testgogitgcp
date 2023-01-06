@@ -30,5 +30,5 @@ func (a *App) Handler(w http.ResponseWriter, r *http.Request) {
 		Labels:  map[string]string{"arbitraryField": "custom entry"},
 		Payload: "Structured logging example.",
 	})
-	fmt.Fprintf(w, "Hello A very very New World! 09:09\n")
+	fmt.Fprintf(w, "Hello A very very New World! 09:14\n")
 }
